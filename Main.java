@@ -34,11 +34,11 @@ public class Main {
         rimeh.addNote("UI/UX",  17.0);
         rimeh.addNote("UI/UX",  20.0);
 
-        System.out.printf("Yesmine");
-        System.out.printf("  POO:   %.2f%n", yesmine.average("POO"));
-        System.out.printf("  Springboot: %.2f%n", yesmine.average("Springboot"));
-        System.out.printf("  UI/UX:  %.2f%n", yesmine.average("UI/UX"));
-        System.out.printf("  Moyenne: %.2f%n%n", yesmine.average());
+        System.out.println("Yesmine");
+        System.out.println("  POO:   ", yesmine.average("POO"));
+        System.out.println("  Springboot: ", yesmine.average("Springboot"));
+        System.out.println("  UI/UX:  ", yesmine.average("UI/UX"));
+        System.out.println("  Moyenne: ", yesmine.average());
 
 
         StudentGroup group = new StudentGroup("DSI23");
@@ -47,4 +47,5 @@ public class Main {
 
         group.sort();
     }
+
 }
